@@ -13,7 +13,7 @@ sys.setdefaultencoding('utf-8')
 os.system('cls' if os.name == 'nt' else 'clear')
 print"""
 ##################################################
-#    Emilyano Zapota SpyHackerz.org 2020         #
+#    BOZKURT NOYAN SAYGILAR       #
 #     Proxy listesi olusturma araci v.1          #
 #      http://eshop.maruff.lclients.ru/          #
 ##################################################"""
