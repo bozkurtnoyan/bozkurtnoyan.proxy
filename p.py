@@ -270,12 +270,12 @@ def proxydb():
     for i in karsilastirma:
         if sonduzen.count(i)==0:
             sonduzen.append(i)
-    dexmod=open("EmilyanoZ.txt","w")
+    dexmod=open("bozkurt.txt","w")
     dexmod.close()
     for i in sonduzen:
-        dexmod=open("EmilyanoZ.txt","a")
+        dexmod=open("bozkurt.txt","a")
         dexmod.write(str(i)+"\n")
         dexmod.close()
-    print "tekrar eden proxyler silinip\nTam olarak %s tane proxy EmilyanoZ.txt dosyasina yazilmistir..."%(len(sonduzen))
+    print "tekrar eden proxyler silinip\nTam olarak %s tane proxy bozkurt.txt dosyasina yazilmistir..."%(len(sonduzen))
 
 idcloak()
